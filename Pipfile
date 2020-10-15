@@ -6,10 +6,10 @@ name = "pypi"
 [packages]
 graphene = ">=2.0"
 django = ">=2.1.5"
-graphene-django = {ref = "django-filter-2", git = "https://github.com/jayhale/graphene-django.git"}
+graphene-django = ">=2.0"
 django-filter = ">=2.0"
 
 [dev-packages]
 
 [requires]
-python_version = "3.6"
+python_version = "3.8"
